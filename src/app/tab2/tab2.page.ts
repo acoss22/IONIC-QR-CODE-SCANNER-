@@ -20,7 +20,6 @@ export class Tab2Page {
     })
   }
 
-
   scanQrCode() {
      this.qrScanner.prepare()
       .then((status: QRScannerStatus) => {
