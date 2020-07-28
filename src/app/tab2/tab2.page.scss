@@ -1,0 +1,16 @@
+.ion-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ion-button {
+  max-width: 50%;
+}
+
+.ion-button--top {
+  align-self: flex-start;
+}
+.ion-button--bottom {
+  align-self: flex-end;
+}
