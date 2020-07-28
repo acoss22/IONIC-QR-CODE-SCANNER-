@@ -7,17 +7,16 @@
 <ion-header collapse="condense">
   <ion-toolbar>
     <img src='../../assets/logo.png' alt="Modatta" width="150px" />
-    <ion-title size="large">Detalhe da oferta </ion-title>
+  
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-
-
   <!-- 
-
   <ion-button (click)="presentAlert()">Validar</ion-button> -->
   <div class="container">
+    <div class="offer-detail"> Detalhe da oferta</div>
+    <div class="company">
     <div class=" item item-a"> <span class="company-name">A empresa</span> </div>
     <div class="brand">
       <div class=" item item-b">
@@ -33,5 +32,6 @@
     <div class=" item item-d">
       <ion-button expand="full" (click)="scanQrCode()">SCAN QR CODE </ion-button>
     </div>
+  </div>
   </div>
 </ion-content>
