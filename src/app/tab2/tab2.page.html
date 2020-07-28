@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-  <img src='../../assets/logo.png' alt="Modatta" width="150px" />
+    <img src='../../assets/logo.png' alt="Modatta" width="150px" />
   </ion-toolbar>
 </ion-header>
 
@@ -12,21 +12,20 @@
 
 <ion-content [fullscreen]="true">
   <div class="container">
-    <div class="item item-a"> <span class="company-name">A empresa</span>  </div>
-    <div class="item item-b"> </div>
-    <div class="item item-c"> </div>
-    <div class="item item-d"> </div>
+    <div class="item item-a"> <span class="company-name">A empresa</span> </div>
+    <div class="item item-b">
+      <img src="google.com" alt="companyLogo" />
+     </div>
+    <div class="item item-c"> <a href="https://www.w3schools.com">Website</a>
+      <a href="https://www.w3schools.com">Política de Privacidade</a>
+     </div>
+    
+      <div class="item item-d">
+      <ion-button expand="full" (click)="scanQrCode()">SCAN QR CODE </ion-button>
+
+    </div>
   </div>
-  
 
 
- 
- 
-<img src="google.com" alt="companyLogo" />
- <a href="website.com">Website</a> 
- <a href="website.com">Política de Privacidade</a> 
-
-  <ion-button expand="full" (click)="scanQrCode()" >SCAN QR CODE </ion-button>
- 
 
 </ion-content>
