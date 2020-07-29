@@ -1,50 +1,61 @@
-.container{
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-
+.container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 
-.offer-detail{
-    background: #3880ff !important; 
-    width: 100%;;
-    color: #fff;
-    padding: 10px;
+.offer-detail {
+  font-weight: 700;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  background: #09d0b3;
 }
 
-.company{
-    padding: 10px 0;
+.company {
+  padding: 10px 0;
 }
 
-.company-name{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+.company-name {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.brand{
-    margin: auto;
-    width: 50%;
-    margin: 0 auto;
+.brand {
+  margin: auto;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
 }
 
-.item-b{
-    width: 100%;;
+.item-d {
+  float: right;
+}
+.item-b {
+  float: left;
 }
 
-.brand-detail{
-    float: right;
-    
+.brand-detail {
+  float: right;
 }
 
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-    color: 	#09d0b3;
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  color: #09d0b3;
 }
 
-.ion-button{
-    background:#09d0b3;
+.button-green {
+  background: #09d0b3;
+  font-weight: 700;
+}
+
+.item-a {
+  padding: 10px 0;
+  font-weight: 700;
 }
