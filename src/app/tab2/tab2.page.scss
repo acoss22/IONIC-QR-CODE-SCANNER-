@@ -17,12 +17,17 @@
 }
 
 .company-name {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    display: inline-block;
+    /* float:left;  remove */
+    margin: 10px 10px 10px 0;
+    padding: 5px 10px;
+    color: gray;
+
 }
 
+.item{
+    text-align: center;
+}
 .brand {
   margin: auto;
   width: 50%;
@@ -46,7 +51,7 @@ a,
 a:hover,
 a:focus,
 a:active {
-  text-decoration: none;
+
   color: inherit;
   color: #09d0b3;
 }
@@ -57,10 +62,15 @@ a:active {
   display: block;
   color: #fff;
   width: 100%;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .item-a {
   padding: 10px 0;
   font-weight: 700;
+}
+
+.item-c{
+    text-align: left;
+    margin: 5px 0;
 }
