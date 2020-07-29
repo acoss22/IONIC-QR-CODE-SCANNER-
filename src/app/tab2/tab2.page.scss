@@ -1,7 +1,8 @@
 .container{
     width: 100%;
     margin: 0 auto;
-  
+    position: relative;
+
 }
 
 .offer-detail{
@@ -13,4 +14,37 @@
 
 .company{
     padding: 10px 0;
+}
+
+.company-name{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.brand{
+    margin: auto;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.item-b{
+    width: 100%;;
+}
+
+.brand-detail{
+    float: right;
+    
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    color: 	#09d0b3;
+}
+
+.ion-button{
+    background:#09d0b3;
 }
